@@ -1,6 +1,6 @@
 :set number
 :set relativenumber
-:set expandtab
+:set noexpandtab
 :set tabstop=4
 :retab
 :set shiftwidth=4
