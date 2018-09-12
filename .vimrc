@@ -1,8 +1,7 @@
 :set number
 :set relativenumber
-:set noexpandtab
+:set expandtab
 :set tabstop=4
-:retab
 :set shiftwidth=4
 
 nmap <C-j>	<Esc><C-w>j
