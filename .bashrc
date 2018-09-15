@@ -120,4 +120,7 @@ alias aptins='sudo apt-get install'
 export SHELL=/usr/bin/fish
 export PATH=/home/alex/anaconda3/bin:$PATH
 source ~/.bashrc_local
+export EDITOR=vim
+export VIM_EDITOR=vim
+export SVN_EDITOR=vim
 #fish
