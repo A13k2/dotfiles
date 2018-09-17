@@ -122,4 +122,7 @@ export PATH=/home/alex/anaconda3/bin:$PATH
 export EDITOR=vim
 export GIT_EDITOR=vim
 source ~/.bashrc_local
+export EDITOR=vim
+export VIM_EDITOR=vim
+export SVN_EDITOR=vim
 #fish

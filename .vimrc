@@ -43,7 +43,6 @@ nnoremap <C-H> <C-W><C-H>
 nmap <C-u>	<Esc>yypVr-
 :set noexpandtab
 :set tabstop=4
-:retab
 :set shiftwidth=4
 
 set relativenumber
