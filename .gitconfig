@@ -1,3 +1,7 @@
 [user]
 	email = alexander.drossel@protonmail.com
 	name = A13k2
+[merge]
+    tool = vimdiff
+    conflictstyle = diff3
+    prompt = false

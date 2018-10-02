@@ -23,6 +23,8 @@ let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/powerline'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'davidhalter/jedi-vim'
 let g:Powerline_symbols = 'fancy'
 set laststatus=2
 
@@ -33,6 +35,7 @@ set laststatus=2
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
+filetype plugin on    " required
 filetype plugin indent on    " required
 
 "split navigations
@@ -40,7 +43,9 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+"Underline shortcut
 nmap <C-u>	<Esc>yypVr-
+
 :set noexpandtab
 :set tabstop=4
 :set shiftwidth=4
