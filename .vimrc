@@ -1,4 +1,5 @@
 set shell=bash
+set clipboard=unnamed
 set nocompatible              " required
 filetype off                  " required
 
