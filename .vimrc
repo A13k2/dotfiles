@@ -55,6 +55,7 @@ nmap <C-u>	<Esc>yypVr-
 set relativenumber
 set number
 set encoding=utf-8
+set autoread
 
 "Enable folding
 set foldmethod=indent
