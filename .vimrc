@@ -17,6 +17,7 @@ Plugin 'vim-scripts/indentpython.vim'
 "Bundle 'Valloric/YouCompleteMe'
 "Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
+Plugin 'lervag/vimtex'
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
@@ -100,3 +101,7 @@ else
 endif
 "switch theme
 call togglebg#map("<F5>")
+
+" sli
+au BufRead,BufNewFile *.sli set filetype=sli
+au FileType sli setl foldenable foldmethod=syntax
