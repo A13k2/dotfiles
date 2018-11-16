@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/45968eff/
+<C-H>	.vimrc	/^nnoremap <C-H> <C-W><C-H>$/;"	m
+<C-J>	.vimrc	/^nnoremap <C-J> <C-W><C-J>$/;"	m
+<C-K>	.vimrc	/^nnoremap <C-K> <C-W><C-K>$/;"	m
+<C-L>	.vimrc	/^nnoremap <C-L> <C-W><C-L>$/;"	m
+<C-n>	.vimrc	/^map <C-n> :NERDTreeToggle<CR>$/;"	m
+<C-u>\t<Esc>yypVr-	.vimrc	/^nmap <C-u>	<Esc>yypVr-$/;"	m
+<space>	.vimrc	/^nnoremap <space> za$/;"	m
+NERDTreeIgnore	.vimrc	/^let NERDTreeIgnore=['\\.pyc$', '\\~$'] "ignore files in NERDTree$/;"	v
+g:Powerline_symbols	.vimrc	/^let g:Powerline_symbols = 'fancy'$/;"	v
+g:SimpylFold_docstring_preview	.vimrc	/^let g:SimpylFold_docstring_preview=1$/;"	v
+python_highlight_all	.vimrc	/^let python_highlight_all=1$/;"	v
