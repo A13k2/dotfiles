@@ -1,3 +1,6 @@
+set -g theme_color_scheme zenburn
+set -g theme_powerline_fonts no
+fish_vi_key_bindings
 if not set -q TMUX
 	set -x SVN_EDITOR vim
 	set -x EDITOR vim
