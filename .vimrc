@@ -18,6 +18,7 @@ Plugin 'vim-scripts/indentpython.vim'
 "Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
 Plugin 'lervag/vimtex'
+Plugin 'vim-latex/vim-latex'
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
@@ -65,16 +66,6 @@ set foldlevel=99
 nnoremap <space> za
 let g:SimpylFold_docstring_preview=1
 
-"PEP 8 Standart indentation for Python
-au BufNewFile,BufRead *.py
-    set tabstop=4
-    set softtabstop=4
-    set shiftwidth=4
-    set textwidth=79
-    set expandtab
-    set autoindent
-    set fileformat=unix
-
 "let g:ycm_autoclose_preview_window_after_completion=1
 "map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
@@ -101,7 +92,3 @@ else
 endif
 "switch theme
 call togglebg#map("<F5>")
-
-" sli
-au BufRead,BufNewFile *.sli set filetype=sli
-au FileType sli setl foldenable foldmethod=syntax
