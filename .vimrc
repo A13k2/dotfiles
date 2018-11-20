@@ -92,3 +92,11 @@ else
 endif
 "switch theme
 call togglebg#map("<F5>")
+
+" vim clientserver
+" if clientserver not installed (check with :version),
+" simply install gvim instead of vim
+if empty(v:servername) && exists('*remote_startserver')
+    call remote_startserver('VIM')
+endif
+
