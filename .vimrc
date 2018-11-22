@@ -92,3 +92,5 @@ else
 endif
 "switch theme
 call togglebg#map("<F5>")
+imap <C-L> <Plug>Tex_LeftRight
+imap <C-N> <Plug>Tex_InsertItemOnThisLine	
