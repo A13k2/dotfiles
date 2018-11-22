@@ -51,6 +51,8 @@ nnoremap <C-H> <C-W><C-H>
 nmap <C-u>	<Esc>yypVr-
 "Quick save
 noremap <Leader>s :update
+"Quick make
+noremap <Leader>m :!make
 
 :set noexpandtab
 :set tabstop=4
