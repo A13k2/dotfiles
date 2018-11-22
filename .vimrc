@@ -92,5 +92,17 @@ else
 endif
 "switch theme
 call togglebg#map("<F5>")
+<<<<<<< HEAD
 imap <C-L> <Plug>Tex_LeftRight
 imap <C-N> <Plug>Tex_InsertItemOnThisLine	
+||||||| merged common ancestors
+=======
+
+" vim clientserver
+" if clientserver not installed (check with :version),
+" simply install gvim instead of vim
+if empty(v:servername) && exists('*remote_startserver')
+    call remote_startserver('VIM')
+endif
+
+>>>>>>> 84ec4defc7d1c808581849b639db6c3f45190b15

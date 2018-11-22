@@ -118,7 +118,6 @@ fi
 alias ll='ls -la'
 alias aptins='sudo apt-get install'
 export SHELL=/usr/bin/fish
-export PATH=/home/alex/anaconda3/bin:$PATH
 export EDITOR=vim
 export GIT_EDITOR=vim
 source ~/.bashrc_local
