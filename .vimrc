@@ -52,6 +52,8 @@ nnoremap <C-H> <C-W><C-H>
 nmap <C-u>	<Esc>yypVr-
 "Quick save
 noremap <Leader>w :update
+noremap <Leader>wm :update:!make
+noremap <Leader>wq :wq
 "Quick make
 noremap <Leader>m :!make
 "Next wrong word
