@@ -11,6 +11,7 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
+Plugin 'easymotion/vim-easymotion'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
@@ -50,9 +51,13 @@ nnoremap <C-H> <C-W><C-H>
 "Underline shortcut
 nmap <C-u>	<Esc>yypVr-
 "Quick save
-noremap <Leader>s :update
+noremap <Leader>w :update
 "Quick make
 noremap <Leader>m :!make
+"Next wrong word
+noremap <Leader>sn [s
+"Add word to wordlist
+noremap <Leader>sg zg
 
 :set noexpandtab
 :set tabstop=4
