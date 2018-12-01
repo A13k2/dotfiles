@@ -11,8 +11,10 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'easymotion/vim-easymotion'
 Plugin 'gmarik/Vundle.vim'
+Plugin 'mattn/emmet-vim'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'pangloss/vim-javascript'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 "Bundle 'Valloric/YouCompleteMe'
