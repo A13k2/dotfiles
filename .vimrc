@@ -31,7 +31,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/powerline'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'davidhalter/jedi-vim'
+" Plugin 'davidhalter/jedi-vim'
 let g:Powerline_symbols = 'fancy'
 set laststatus=2
 
