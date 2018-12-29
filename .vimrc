@@ -11,6 +11,7 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
+Plugin 'neomake/neomake'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'easymotion/vim-easymotion'
@@ -31,6 +32,12 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/powerline'
 Plugin 'scrooloose/nerdcommenter'
+" Experimental vim arduino development
+"Plugin 'tclem/vim-arduino'
+""Default: /Applications/Arduino.app/Contents/Resources/Java
+"let g:vim_arduino_library_path = /path/to/arduino/installation
+""Default: result of `$(ls /dev/tty.* | grep usb)`
+"let g:vim_arduino_serial_port = /my/serial/port
 " Plugin 'davidhalter/jedi-vim'
 let g:Powerline_symbols = 'fancy'
 set laststatus=2
