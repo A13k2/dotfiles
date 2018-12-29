@@ -17,7 +17,7 @@ Plugin 'mattn/emmet-vim'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'pangloss/vim-javascript'
 Plugin 'tmhedberg/SimpylFold'
-Plugin 'vim-scripts/indentpython.vim'
+"Plugin 'vim-scripts/indentpython.vim'
 "Bundle 'Valloric/YouCompleteMe'
 "Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
@@ -40,6 +40,7 @@ Plugin 'scrooloose/nerdcommenter'
 "let g:vim_arduino_serial_port = /my/serial/port
 " Plugin 'davidhalter/jedi-vim'
 let g:Powerline_symbols = 'fancy'
+let g:pymode_python = 'python3'
 set laststatus=2
 
 " add all your plugins here (note older versions of Vundle
