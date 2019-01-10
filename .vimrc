@@ -16,7 +16,8 @@ Plugin 'mattn/emmet-vim'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'pangloss/vim-javascript'
 Plugin 'tmhedberg/SimpylFold'
-Plugin 'vim-scripts/indentpython.vim'
+Plugin 'wincent/Command-T'
+"Plugin 'vim-scripts/indentpython.vim'
 "Bundle 'Valloric/YouCompleteMe'
 "Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
@@ -31,8 +32,10 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/powerline'
 Plugin 'scrooloose/nerdcommenter'
-" Plugin 'davidhalter/jedi-vim'
 let g:Powerline_symbols = 'fancy'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'xuhdev/vim-latex-live-preview'
+let g:livepreview_engine = 'lualatex'
 set laststatus=2
 
 " add all your plugins here (note older versions of Vundle
@@ -62,6 +65,9 @@ noremap <Leader>m :!make
 noremap <Leader>sn [s
 "Add word to wordlist
 noremap <Leader>sg zg
+"Split fast
+nnoremap <Leader>sv :vsplit
+nnoremap <Leader>sh :split
 
 :set noexpandtab
 :set tabstop=4
@@ -113,4 +119,3 @@ imap <C-N> <Plug>Tex_InsertItemOnThisLine
 "if empty(v:servername) && exists('*remote_startserver')
 "    call remote_startserver('VIM')
 "endif
-
