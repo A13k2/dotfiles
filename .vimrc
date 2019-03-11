@@ -11,6 +11,7 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
+Plugin 'w0rp/ale'
 Plugin 'neomake/neomake'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'mattn/emmet-vim'
