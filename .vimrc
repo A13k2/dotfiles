@@ -11,20 +11,15 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
+Plugin 'vim-airline/vim-airline'
 Plugin 'neomake/neomake'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'pangloss/vim-javascript'
-Plugin 'tmhedberg/SimpylFold'
-<<<<<<< HEAD
-Plugin 'wincent/Command-T'
+Plugin 'tmhedberg/SimplyFold'
+"Plugin 'wincent/Command-T'
 "Plugin 'vim-scripts/indentpython.vim'
-||||||| merged common ancestors
-Plugin 'vim-scripts/indentpython.vim'
-=======
-"Plugin 'vim-scripts/indentpython.vim'
->>>>>>> refs/remotes/origin/master
 "Bundle 'Valloric/YouCompleteMe'
 "Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
@@ -39,33 +34,21 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/powerline'
 Plugin 'scrooloose/nerdcommenter'
-<<<<<<< HEAD
-||||||| merged common ancestors
 " Plugin 'davidhalter/jedi-vim'
-=======
-" Experimental vim arduino development
-"Plugin 'tclem/vim-arduino'
-""Default: /Applications/Arduino.app/Contents/Resources/Java
-"let g:vim_arduino_library_path = /path/to/arduino/installation
-""Default: result of `$(ls /dev/tty.* | grep usb)`
-"let g:vim_arduino_serial_port = /my/serial/port
-" Plugin 'davidhalter/jedi-vim'
->>>>>>> refs/remotes/origin/master
 let g:Powerline_symbols = 'fancy'
-<<<<<<< HEAD
 Plugin 'davidhalter/jedi-vim'
 Plugin 'xuhdev/vim-latex-live-preview'
+let g:livepreview_previewer = 'zathura'
 let g:livepreview_engine = 'lualatex'
-||||||| merged common ancestors
-=======
+let g:livepreview_cursorhold_recompile = 0
 let g:pymode_python = 'python3'
->>>>>>> refs/remotes/origin/master
 set laststatus=2
 
 " add all your plugins here (note older versions of Vundle
 " used Bundle instead of Plugin)
 
-" ...
+" fzf
+map <leader>t :FZF
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -103,8 +86,8 @@ set encoding=utf-8
 set autoread
 
 "Enable folding
-set foldmethod=indent
-set foldlevel=99
+" set foldmethod=indent
+" set foldlevel=1
 "Folding with Spacebar
 nnoremap <space> za
 let g:SimpylFold_docstring_preview=1
