@@ -1,0 +1,4 @@
+fish/fishd.nder
+*.pyc[cod]
+fish/fish_variables
+*.orig

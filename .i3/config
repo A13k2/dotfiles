@@ -2,7 +2,8 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
-set $mod Mod4
+exec_always --no-startup-id xmodmap ~/.Xmodmap
+set $mod Mod3
 
 # set default desktop layout (default is tiling)
 # workspace_layout tabbed <stacking|tabbed>
@@ -289,10 +290,21 @@ exec --no-startup-id nextcloud-client
 exec --no-startup-id setxkbmap -option compose:caps
 # exec --no-startup-id blueman-applet
 # exec_always --no-startup-id sbxkb
+<<<<<<< HEAD
 #exec --no-startup-id start_conky_maia
 #exec --no-startup-id start_conky_solarized
 exec --no-startup-id /home/alex/conky_config/startconky.sh
 exec --no-startup-id xautolock -time 10 -locker blurlock -corners 00+-
+||||||| merged common ancestors
+exec --no-startup-id start_conky_maia
+# exec --no-startup-id start_conky_green
+exec --no-startup-id xautolock -time 10 -locker blurlock
+=======
+#exec --no-startup-id start_conky_live_green
+exec --no-startup-id /home/alex/conky_config/startconky.sh
+# exec --no-startup-id start_conky_green
+exec --no-startup-id xautolock -time 30 -locker blurlock -corners 00-0
+>>>>>>> refs/remotes/origin/master
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 

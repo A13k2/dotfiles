@@ -9,3 +9,4 @@ ln -sv ~/dotfiles/.i3 ~
 ln -sv ~/dotfiles/.i3status.conf ~
 ln -sv ~/dotfiles/.latexmkrc ~
 ln -sv ~/dotfiles/ftplugin ~/.vim/
+ln -sv ~/dotfiles/.Xmodmap ~

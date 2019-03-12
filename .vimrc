@@ -12,14 +12,15 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'vim-airline/vim-airline'
+Plugin 'w0rp/ale'
 Plugin 'neomake/neomake'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'pangloss/vim-javascript'
-Plugin 'tmhedberg/SimplyFold'
-"Plugin 'wincent/Command-T'
-"Plugin 'vim-scripts/indentpython.vim'
+Plugin 'tmhedberg/SimpylFold'
+Plugin 'wincent/Command-T'
+Plugin 'vim-scripts/indentpython.vim'
 "Bundle 'Valloric/YouCompleteMe'
 "Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
@@ -30,17 +31,23 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
-Plugin 'kien/ctrlp.vim'
+"Plugin 'kien/ctrlp.vim'
+"Plugin 'wincent/command-t'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/powerline'
 Plugin 'scrooloose/nerdcommenter'
+" Experimental vim arduino development
+"Plugin 'tclem/vim-arduino'
+""Default: /Applications/Arduino.app/Contents/Resources/Java
+"let g:vim_arduino_library_path = /path/to/arduino/installation
+""Default: result of `$(ls /dev/tty.* | grep usb)`
+"let g:vim_arduino_serial_port = /my/serial/port
 " Plugin 'davidhalter/jedi-vim'
 let g:Powerline_symbols = 'fancy'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'xuhdev/vim-latex-live-preview'
 let g:livepreview_previewer = 'zathura'
 let g:livepreview_engine = 'lualatex'
-let g:livepreview_cursorhold_recompile = 0
 let g:pymode_python = 'python3'
 set laststatus=2
 
