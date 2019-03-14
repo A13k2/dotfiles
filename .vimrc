@@ -11,6 +11,7 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
+Plugin 'vim-airline/vim-airline'
 Plugin 'w0rp/ale'
 Plugin 'neomake/neomake'
 Plugin 'gmarik/Vundle.vim'
@@ -45,6 +46,7 @@ Plugin 'scrooloose/nerdcommenter'
 let g:Powerline_symbols = 'fancy'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'xuhdev/vim-latex-live-preview'
+let g:livepreview_previewer = 'zathura'
 let g:livepreview_engine = 'lualatex'
 let g:pymode_python = 'python3'
 set laststatus=2
@@ -52,7 +54,8 @@ set laststatus=2
 " add all your plugins here (note older versions of Vundle
 " used Bundle instead of Plugin)
 
-" ...
+" fzf
+map <leader>t :FZF
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -90,8 +93,8 @@ set encoding=utf-8
 set autoread
 
 "Enable folding
-set foldmethod=indent
-set foldlevel=99
+" set foldmethod=indent
+" set foldlevel=1
 "Folding with Spacebar
 nnoremap <space> za
 let g:SimpylFold_docstring_preview=1
