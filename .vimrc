@@ -137,3 +137,9 @@ imap <C-N> <Plug>Tex_InsertItemOnThisLine
 "if empty(v:servername) && exists('*remote_startserver')
 "    call remote_startserver('VIM')
 "endif
+
+
+
+
+"Testing:
+set clipboard=unnamedplus
