@@ -12,7 +12,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'vim-airline/vim-airline'
-Plugin 'w0rp/ale'
+"Plugin 'w0rp/ale'
 Plugin 'neomake/neomake'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'mattn/emmet-vim'
@@ -51,6 +51,8 @@ let g:livepreview_engine = 'lualatex'
 let g:pymode_python = 'python3'
 set laststatus=2
 
+" Testing
+Plugin 'myusuf3/numbers.vim'
 " add all your plugins here (note older versions of Vundle
 " used Bundle instead of Plugin)
 
@@ -61,6 +63,8 @@ map <leader>t :FZF
 call vundle#end()            " required
 filetype plugin on    " required
 filetype plugin indent on    " required
+
+imap jj 
 
 "split navigations
 nnoremap <C-J> <C-W><C-J>
