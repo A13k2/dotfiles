@@ -143,3 +143,4 @@ imap <C-N> <Plug>Tex_InsertItemOnThisLine
 
 "Testing:
 set clipboard=unnamedplus
+map <Leader>i gg=G<C-o><C-o>
