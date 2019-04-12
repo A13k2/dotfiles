@@ -3,7 +3,8 @@
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 exec_always --no-startup-id xmodmap ~/.Xmodmap
-set $mod Mod3
+exec_always --no-startup-id redshift -l 51.51:7.42
+set $mod Mod4
 
 # set default desktop layout (default is tiling)
 # workspace_layout tabbed <stacking|tabbed>
