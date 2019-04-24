@@ -247,6 +247,6 @@ keycode 253 =
 keycode 254 = XF86WWAN NoSymbol XF86WWAN
 keycode 255 = XF86RFKill NoSymbol XF86RFKill
 clear Lock
-clear mod4
-add mod3 = Hyper_L
-add mod3 = Super_L
+!clear mod4
+add mod4 = Hyper_L
+add mod4 = Super_L
